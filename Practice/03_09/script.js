@@ -24,3 +24,48 @@ const backpack = {
     this.strapLength.right = lengthRight;
   },
 };
+
+const silla = {
+  tipo : "fija",
+  color : "verde",
+  marca : "ville",
+  posiciones: {
+    bajo: 12,
+    medio: 24,
+    alto:36
+  },
+  posapies:{
+    bajo: 30,
+    medio: 15,
+  },
+  ruedas : false,
+  cambio_ruedas : function (tipoSilla, cantidad_rueda){
+    this.tipo = tipoSilla
+    this.ruedas = cantidad_rueda
+  }
+}
+
+let model = document.getElementById("modelo")
+
+model.textContent += silla.tipo + " "
+silla.cambio_ruedas("movil",true)
+model.textContent += silla.tipo + " "
+model.textContent += silla.ruedas
+
+console.log(silla)
+
+let objeto = document.getElementById("object")
+ objeto.innerText =  silla["ruedas"]
+
+ var tip = "ruedas"
+ objeto.textContent +=  silla["ruedas"] + " "
+ objeto.textContent +=  silla[tip]
+
+
+
+
+
+
+
+
+
