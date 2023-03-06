@@ -10,7 +10,7 @@ class Backpack {
     // Defines parameters:
     name,
     volume,
-    color,
+    color, 
     pocketNum,
     strapLengthL,
     strapLengthR,
