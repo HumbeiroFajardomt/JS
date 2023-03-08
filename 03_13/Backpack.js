@@ -8,7 +8,7 @@ class Backpack {
     strapLengthR,
     lidOpen,
     dateAcquired
-  ) {
+  ) { 
     this.name = name;
     this.volume = volume;
     this.color = color;

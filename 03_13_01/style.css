@@ -1,0 +1,19 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+div{
+    background-color: aqua;
+    height: 20vh;
+    margin: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#cap_1{
+    margin-top: 8px;
+}
