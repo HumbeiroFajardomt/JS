@@ -1,0 +1,27 @@
+metodos = funciones que dependen de un objeto
+funciones no dependen de nada. 
+Numeor Factorial?
+====
+VScode
+code .
+
+Dev Container
+docker
+Mardown
+Live Preview
+node exprexx 1.1.3
+PostgreSQL
+gitLens
+git Graph
+
+$oh my zsh Para ver en que rama se trabaja
+
+
+=============
+Algoritmos: Entrada -> Proceso -> Salida
+Secuenciales-> Se ejecuta un proceso detras de otro
+Precisos -> Ejecuta un procesos que soluciona un problema
+Concretos -> Complejidad del mismo
+Ordenados -> Nunca se salta una secuencia
+Sencillos -> Encontrar la solucion de manera muy sencilla
+Finitos
