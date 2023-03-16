@@ -18,7 +18,8 @@ const everydayPack = new Backpack(
   "../assets/images/everyday.svg"
 );
 
-const main = document.querySelector(".maincontent");
+/**
+ * const main = document.querySelector(".maincontent");
 
 const content = `
   <article class="backpack" id="everyday">
@@ -49,3 +50,6 @@ const content = `
 `;
 
 main.innerHTML = content;
+ *  */ 
+
+
